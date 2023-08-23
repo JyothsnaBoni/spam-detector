@@ -1,0 +1,76 @@
+Here is a .gitignore file for the email spam detection project that includes important target folders while ignoring unnecessary files:
+
+# IDE files
+
+.idea/
+
+# Logs and temp files
+
+logs/
+\*.log
+
+# Dependency downloads
+
+target/dependency-maven-plugin/
+
+# Large files
+
+\*.txt
+\*.zip
+\*.pdf
+\*.class
+
+# Editor files
+
+\*.iml
+
+# Compiled files
+
+/target/classes/
+
+# Test reports
+
+!target/surefire-reports
+
+# build results
+
+target/
+
+# Local configuration file
+
+local.properties
+
+# Packages downloaded by Android Studio
+
+\*.apk
+\*.jar
+
+# Bytecode files
+
+\*.class
+
+# Gradle files
+
+.gradle/
+build/
+
+# Node.js
+
+node_modules/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+This .gitignore:
+
+- Ignores IDE/editor files
+- Ignores logs, temp files
+- Ignores large dependencies
+- Includes compiled classes
+- Includes test reports
+- Ignores other target folders
+- Ignores local files
+
+Let me know if you need any other modification to the .gitignore file!
