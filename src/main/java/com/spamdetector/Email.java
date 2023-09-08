@@ -3,6 +3,10 @@ package com.spamdetector;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+
+Representation of an email message.
+*/
 public class Email {
 
     private String body;
@@ -11,6 +15,11 @@ public class Email {
   
     private double spamProbability;
   
+    /**
+
+      Constructs an Email object from subject and body strings.
+      Also tokenizes body into individual words.
+    */
     public Email(String body, String subject) {
       this.body = body;
       this.subject = subject;
