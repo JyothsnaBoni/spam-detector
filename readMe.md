@@ -21,8 +21,10 @@ A Java based spam detection model.
 
 ## Running Application
 
-1. A main method is provided in App.java
-1. Run App class as Java Application
+1. A main method is provided in SpamDetector.java
+1. Run SpamDetector class as Java Application
+1. Use Use Maven plugin to run main class. command:
+`mvn compile exec:java -Dexec.mainClass="com.spamdetector.SpamDetector"`
 1. Sample emails and output will be printed
 
 ## Overview
